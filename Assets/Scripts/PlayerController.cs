@@ -5,15 +5,19 @@ using UnityEngine.InputSystem.XR;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 10.0f;
+    public float speed;
     public float gravity = -9.8f;
-    public float rotationSpeed = 5.0f;
+    public float rotationSpeed;
 
     private CharacterController characterController;
+    private AudioSource audioSource;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        audioSource = GetComponent<AudioSource>();
+        speed = GameController.instance.configuration.playerSpeed;
+        rotationSpeed = GameController.instance.configuration.playerRotationSpeed;
     }
 
     void Update()
@@ -30,5 +34,10 @@ public class PlayerController : MonoBehaviour
         movement = transform.TransformDirection(movement);
 
         characterController.Move(movement);
+    }
+
+    public void OnDamage()
+    {
+        audioSource.Play();
     }
 }

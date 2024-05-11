@@ -4,29 +4,20 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour
 {
-    public Texture2D crosshairTexture;
     public AudioClip pistolShotClip;
     public ParticleSystem gunFlare;
-    public float range = 20.0f;
-
-    private Rect crosshairPos;
-    private AudioSource audioSource;
     
+
+    private AudioSource audioSource;
+    private float range;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        crosshairPos = new Rect((Screen.width - crosshairTexture.width) / 2,
-            (Screen.height - crosshairTexture.height) / 2,
-            crosshairTexture.width, crosshairTexture.height);
-
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = pistolShotClip;
-    }
-
-    private void OnGUI()
-    {
-        GUI.DrawTexture(crosshairPos, crosshairTexture);
+        range = GameController.instance.configuration.gunRange;
     }
 
     void Update()
@@ -40,6 +31,10 @@ public class GunController : MonoBehaviour
                 if (hit.transform.tag == "Enemy" && hit.distance < range)
                 {
                     Debug.Log("Enemy hit!");
+
+                    EnemyController enemy = hit.transform.GetComponent<EnemyController>();
+                    enemy?.OnHit();
+
                 }
                 else
                 {

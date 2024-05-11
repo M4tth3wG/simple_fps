@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>daf8c18f6b672cb498231ff2702112ce</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-05-11T13:24:38.3902042+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fcf2c9c4678757f4696599feaa802e48</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-05-11T13:24:38.4092035+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>872867b2687c3f14a81aec6c80efe0ee</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-05-11T13:24:38.427204+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>798f2a4b1cec63c4faba59d2cb775258</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-05-11T13:24:38.4462023+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce3d564be471c574bb2c96803ee39161</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-05-11T13:24:38.4642034+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e76c6440f87d826459683020faca742f</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-05-11T13:24:38.4822029+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>68dbe20772b4aa846bb2a96a1c42f402</guid>
+    <fileName>Assets/Scripts/ArtefactController.cs</fileName>
+    <timeStamp>2024-05-11T02:42:35.7771611+02:00</timeStamp>
+    <typeFullName>
+      <string>ArtefactController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a14f5ed3bf7d3848b74d7fd8126015d</guid>
+    <fileName>Assets/Scripts/CameraController.cs</fileName>
+    <timeStamp>2024-05-11T13:13:57.7426633+02:00</timeStamp>
+    <typeFullName>
+      <string>CameraController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1b9aeb7e38918074f92407d06a639ec6</guid>
+    <fileName>Assets/Scripts/EnemyController.cs</fileName>
+    <timeStamp>2024-05-11T03:47:37.2169529+02:00</timeStamp>
+    <typeFullName>
+      <string>EnemyController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6c4d428adacaf5649815a27d17081ff0</guid>
+    <fileName>Assets/Scripts/GameConfiguration.cs</fileName>
+    <timeStamp>2024-05-11T03:47:28.3600529+02:00</timeStamp>
+    <typeFullName>
+      <string>GameConfiguration</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7c2605149b527c64b92a9ba0f59430ea</guid>
+    <fileName>Assets/Scripts/GameController.cs</fileName>
+    <timeStamp>2024-05-11T13:05:17.2914881+02:00</timeStamp>
+    <typeFullName>
+      <string>GameController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>87471d7d865b0e44da648b9c33b5900b</guid>
+    <fileName>Assets/Scripts/GunController.cs</fileName>
+    <timeStamp>2024-05-11T03:41:01.8588131+02:00</timeStamp>
+    <typeFullName>
+      <string>GunController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8d4eea25027214d448cb94ba93ae9ed8</guid>
+    <fileName>Assets/Scripts/HudController.cs</fileName>
+    <timeStamp>2024-05-11T02:44:46.2539645+02:00</timeStamp>
+    <typeFullName>
+      <string>HudController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>95a6f3d830f947b48b91f27bf2751f1d</guid>
+    <fileName>Assets/Scripts/PlayerController.cs</fileName>
+    <timeStamp>2024-05-11T03:43:16.1766165+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20fcdcf13b953de43bbdb64356b4a1c0</guid>
+    <fileName>Assets/Scripts/Result.cs</fileName>
+    <timeStamp>2024-05-11T12:08:16.6544275+02:00</timeStamp>
+    <typeFullName>
+      <string>Result</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>

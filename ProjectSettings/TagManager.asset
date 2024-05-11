@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,9 +13,9 @@ TagManager:
   - Gun
   - Water
   - UI
-  - 
-  - 
-  - 
+  - LevelObjects
+  - Player
+  - Enemy
   - 
   - 
   - 
