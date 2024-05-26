@@ -6,18 +6,33 @@ using UnityEngine;
 public class HudController : MonoBehaviour
 {
     public TextMeshProUGUI livesDisplay;
-    public TextMeshProUGUI artifactsDisplay;
+    public TextMeshProUGUI artefactsDisplay;
+    public TextMeshProUGUI enemiesDisplay;
+    public TextMeshProUGUI timerDisplay;
 
     void Start()
     {
         OnLivesUpdate();
-        OnArtifactsUpdate();
+        OnArtefactsUpdate();
+        OnEnemiesUpdate();
+        UpdateTime();
     }
 
     private void Update()
     {
         OnLivesUpdate();
-        OnArtifactsUpdate();
+        OnArtefactsUpdate();
+        OnEnemiesUpdate();
+        UpdateTime();
+    }
+
+    private void UpdateTime()
+    {
+        float time = GameController.instance.ElapsedTime;
+        int minutes = Mathf.FloorToInt(time / 60);
+        int seconds = Mathf.FloorToInt(time % 60);
+
+        timerDisplay.text = string.Format("{00:00}:{01:00}", minutes, seconds);
     }
 
     void OnLivesUpdate()
@@ -25,8 +40,13 @@ public class HudController : MonoBehaviour
         livesDisplay.text = GameController.instance.Health.ToString();
     }
 
-    void OnArtifactsUpdate()
+    void OnArtefactsUpdate()
     {
-        artifactsDisplay.text = GameController.instance.Artefacts.ToString();
+        artefactsDisplay.text = GameController.instance.Artefacts.ToString();
+    }
+
+    void OnEnemiesUpdate()
+    {
+        enemiesDisplay.text = GameController.instance.Enemies.ToString();
     }
 }

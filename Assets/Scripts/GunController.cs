@@ -22,7 +22,7 @@ public class GunController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !GameController.instance.IsPaused)
         {
             Ray ray = new Ray(transform.parent.position, transform.parent.forward);
             RaycastHit hit;

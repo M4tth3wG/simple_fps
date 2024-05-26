@@ -17,7 +17,10 @@ MonoBehaviour:
   gunRange: 30
   playerSpeed: 10
   playerRotationSpeed: 5
+  minPlayerRotationSpeed: 1
+  maxPlayerRotationSpeed: 10
   playerMinVert: -30
   playerMaxVert: 30
   enemyFollowRange: 20
   enemyAttackRate: 1
+  volume: 0.23387599
