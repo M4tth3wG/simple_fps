@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class GameController : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GameController : MonoBehaviour
     private PlayerController player;
     private const string levelSceneName = "Level";
     private const string gameOverSceneName = "GameOver";
+    private const string mainMenuSceneName = "MainMenu";
     private const float transitionDelay = 1.0f;
 
     private void Awake()
@@ -48,6 +50,7 @@ public class GameController : MonoBehaviour
         ElapsedTime = 0;
         Enemies = CountEnemies();
         IsPaused = false;
+        Time.timeScale = 1.0f;
     }
 
     private int CountEnemies()
@@ -91,6 +94,11 @@ public class GameController : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(levelSceneName);
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(mainMenuSceneName);
     }
 
     IEnumerator LoadSceneAfterDelay(string sceneName, float delay)

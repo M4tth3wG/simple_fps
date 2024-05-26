@@ -24,6 +24,7 @@ public class PauseMenu : MonoBehaviour
         volumeSlider.maxValue = 1;
         volumeSlider.value = GameController.instance.configuration.volume;
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        OnVolumeChanged(volumeSlider.value);
     }
     void Update()
     {

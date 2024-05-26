@@ -4167,9 +4167,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1483094765}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 1723980387970714840, guid: 4f3158cf8718bc141b66b3f2593ebb3e, type: 3}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4178,7 +4178,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1185190907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5216,7 +5216,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1970041717}
+      - m_Target: {fileID: 1723980387970714840, guid: 4f3158cf8718bc141b66b3f2593ebb3e, type: 3}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -5227,7 +5227,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1598352154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8313,17 +8313,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 499840, guid: 9d79238e340446545b920b58f2cd9574, type: 3}
   m_PrefabInstance: {fileID: 1574750697}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1970041717 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1723980387970714840, guid: 4f3158cf8718bc141b66b3f2593ebb3e, type: 3}
-  m_PrefabInstance: {fileID: 8430532604520570205}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c2605149b527c64b92a9ba0f59430ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1994241164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 405642, guid: c47a6e1ab85109b41bed24f2be715a82, type: 3}

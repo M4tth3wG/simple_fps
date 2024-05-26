@@ -23,6 +23,4 @@ MonoBehaviour:
   playerMaxVert: 30
   enemyFollowRange: 20
   enemyAttackRate: 1
-  minVolume: -80
-  maxVolume: 20
-  volume: 0
+  volume: 0.23387599
