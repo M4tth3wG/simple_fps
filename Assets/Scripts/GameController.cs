@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public GameConfiguration configuration;
     public int Health { get; private set; }
     public int Artefacts { get; private set; }
+    public bool IsPaused { get; set; }
 
     private PlayerController player;
     private const string levelSceneName = "Level";
@@ -37,6 +38,7 @@ public class GameController : MonoBehaviour
         Health = configuration.lives;
         player.transform.position = configuration.playerPosition;
         Artefacts = 0;
+        IsPaused = false;
     }
 
     public void OnArtefactCollect()
@@ -86,5 +88,16 @@ public class GameController : MonoBehaviour
         {
             Init();
         }
+    }
+
+    public void OnMouseSpeedChanged(float speed)
+    {
+        player.rotationSpeed = speed;
+        configuration.playerRotationSpeed = speed;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

@@ -607,7 +607,7 @@ AudioSource:
   m_GameObject: {fileID: 5405345558985897596}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9b9e3bd6e1107234c89fdfd2cc9534d8, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9bb077a323b26ef46a0557f0d11bee94, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -6076,7 +6076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a14f5ed3bf7d3848b74d7fd8126015d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roationSpeed: 5
+  rotationSpeed: 0
   minVert: -20
   maxVert: 20
 --- !u!1001 &1750734629472765252
@@ -6168,7 +6168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pistolShotClip: {fileID: 8300000, guid: 92d35fe1c59bbd14eaee9e3d3b54cea7, type: 3}
   gunFlare: {fileID: 1552691950398929371}
-  range: 20
 --- !u!82 &1848723689973962806
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6178,7 +6177,7 @@ AudioSource:
   m_GameObject: {fileID: 1750734629472735230}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9b9e3bd6e1107234c89fdfd2cc9534d8, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1

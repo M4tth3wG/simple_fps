@@ -19,9 +19,12 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        float mY = Input.GetAxis("Mouse Y");
-        rotationX -= mY * rotationSpeed;
-        rotationX = Mathf.Clamp(rotationX, minVert, maxVert);
-        transform.localEulerAngles = new Vector3 (rotationX, transform.localEulerAngles.y, 0);
+        if (!GameController.instance.IsPaused)
+        {
+            float mY = Input.GetAxis("Mouse Y");
+            rotationX -= mY * rotationSpeed;
+            rotationX = Mathf.Clamp(rotationX, minVert, maxVert);
+            transform.localEulerAngles = new Vector3(rotationX, transform.localEulerAngles.y, 0);
+        }
     }
 }
